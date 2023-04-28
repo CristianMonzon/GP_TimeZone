@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class IUError {\n  constructor(error) {\n    this.errorMessage = \"\";\n    this.errorMessage = error.message;\n  }\n\n  hasError() {\n    return this.errorMessage != \"\";\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}
